@@ -1,0 +1,139 @@
+<html>
+<h1>This is a HTML document</h1> 
+
+<title>Assignment 2</title>
+
+<body bgcolor="lightblue">
+
+<p style="color:red">In this document I will show you different types of <mark>lists, tables and forms.</mark> I will also be showing some other tags which could be useful while making a HTML document.</p>
+
+<a href = "https://www.freecodecamp.org/news/content/images/size/w2000/2021/08/html.png">
+If u click this paragraph u will get this image.<br>
+</a>
+
+<img src = "https://www.freecodecamp.org/news/content/images/size/w2000/2021/08/html.png" width="300px" height="150px">
+
+<p>This was done by using a hypertext reference tag.</p>
+
+<h1>There are three types of lists in HTML</h1>
+
+<p>
+<br>Unordered list
+<br>Ordered list
+<br>Description list
+</p>
+
+<h2>This is an unordered list</h2>
+<ul>
+<li>First point</li>
+<li>Second point</li>
+<li>Third point</li>
+</ul>
+
+<h2>This is an ordered list</h2>
+<ol>
+<li>First point</li>
+<li>Second point</li>
+<li>Third point</li>
+</ol>
+
+<h2>This is a description list</h2>
+
+<dl>
+<dh>This is a description heading</dh>
+<dd>This is the descriprion data</dd>
+</dl>
+
+<p>HTML also has some text formatting tags like <b>Bold</b>, <i>Italics</i> and <u>Underline.</u></p>
+
+<h1>Blockquote tag</h1>
+
+<p>The next paragraph is quoted from another site using a blockquote tag.</p>
+<blockquote cite = "https://en.wikipedia.org/wiki/HTML">
+
+The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+
+</blockquote>
+</body>
+
+<h1>Tables</h1>
+
+<style>
+th, td
+{
+	padding: 10px;
+}
+
+table
+{
+	border-spacing: 15px;
+}
+
+table, th, td 
+{
+	border: 2px solid black;
+}
+
+tr:hover {background-color:green}
+</style>
+
+<table style="width:40%">
+
+<tr>
+<th colspan="2">Colspan</th>
+<th>Table heading</th>
+</tr>
+
+<tr>
+<td rowspan="2" >Rowspan</td>
+<td>Table data</td>
+<td>Table data</td>
+</tr>
+
+<tr>
+<td>Table data</td>
+<td>Table data</td>
+</tr>
+
+</table>
+
+<form>
+<h1>Forms</h1>
+<h2>Text Input</h2>
+
+<label for="l1">Text Input 1</label>
+<input type="text" id="l1" name="l1"><br>
+<lable for="l2">Text Input 2</label>
+<input type="text" id="l2" name="l2"><br>
+
+<h2>Radio Input</h2>
+<input type="radio" id="r1" name="radio" value="r1">
+<label for="r1">Radio Option 1</label><br>
+<input type="radio" id="r2" name="radio" value="r2">
+<label for="r2">Radio Option 2</label><br>
+<input type="radio" id="r3" name="radio" value="r3">
+<label for="r3">Radio Option 3</label><br>
+
+<h2>Checkbox Input</h1>
+<input type="checkbox" id="c1" name="c1" value="c1">
+<label for="c1">Checbox Option 1</label><br>
+<input type="checkbox" id="c2" name="c2" value="c2">
+<label for="c2">Checbox Option 2</label><br>
+<input type="checkbox" id="c3" name="c3" value="c3">
+<label for="c3">Checbox Option 3</label><br>
+
+<h2>Select Tag</h2>
+<label for="s">Select</label>
+<select id="s" name="s">
+<option value="1">Option 1</option>
+<option value="2">Option 2</option>
+<option value="3">Option 3</option>
+<option value="4">Option 4</option>
+<option value="5">Option 5</option>
+</select><br><br>
+
+<input type="reset">
+<input type="submit">
+</form> 
+
+</html>
